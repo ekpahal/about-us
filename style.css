@@ -183,6 +183,9 @@ input:focus {
     height: 450px;
     border-bottom: 2px solid;
 }
+p{
+  text-align: justify;
+}
 .end{
     padding-top: 24px;
     padding-bottom: 48px;
@@ -199,7 +202,6 @@ input:focus {
 table td + td { 
     border-left:2px solid #808080; 
  }
-
 #male {
     background-color: red;
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
@@ -308,6 +310,12 @@ color: black;
   background-repeat:no-repeat;
   background-size: 100% 100%;
 }
+.backg1{
+  background-image: url(Images/vision.jpg);
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+}
+
 @font-face {
   font-family: 'Droid Sans';
   font-style: normal;
